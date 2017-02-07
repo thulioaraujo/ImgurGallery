@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.mobilab.imgurgallery.activity.MainActivity">
+
+    <item
+        android:id="@+id/grid_view"
+        android:icon="@mipmap/grid_ic"
+        android:orderInCategory="101"
+        android:title="Grid"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/list_view"
+        android:icon="@mipmap/list_ic"
+        android:orderInCategory="102"
+        android:title="List"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/grid_staggered"
+        android:icon="@mipmap/biggrid_ic"
+        android:orderInCategory="103"
+        android:title="Grid Staggered"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="104"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+</menu>

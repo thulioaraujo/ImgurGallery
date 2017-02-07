@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">Imgur Gallery</string>
+    <string name="action_about">About</string>
+    <string name="hot_button">Hot</string>
+    <string name="top_button">Top</string>
+    <string name="user_button">User</string>
+    <string name="no_description">No Description</string>
+    <string name="no_title">No Title</string>
+
+    <!-- About Activity -->
+    <string name="author_name">Thúlio Araújo</string>
+    <string name="author_email">thuliolins@gmail.com</string>
+    <string name="lbl_name">Author Name:</string>
+    <string name="lbl_email">Author Email:</string>
+    <string name="app_version">Version:</string>
+    <string name="app_build_time">Build Time:</string>
+    <string name="btn_close">Close</string>
+    <string name="title_activity_filter">Filter</string>
+
+    <!-- Image Detail Activity -->
+    <string name="up_votes">Up Votes:</string>
+    <string name="down_votes">Down Votes:</string>
+    <string name="score">Score:</string>
+    <string name="image_description">Description: </string>
+
+    <!-- Filter Dialog Activity -->
+    <string name="sort_parameter">Sort:</string>
+    <string name="viral_section">Viral</string>
+    <string name="top_section">Top</string>
+    <string name="time_section">Time</string>
+    <string name="window_parameter">Window:</string>
+    <string name="day_section">Day</string>
+    <string name="week_section">Week</string>
+    <string name="month_section">Month</string>
+    <string name="year_section">Year</string>
+    <string name="all_section">All</string>
+    <string name="viral">Viral:</string>
+    <string name="viral_parameter">Show viral</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>
