@@ -14,7 +14,7 @@ In order to run and debug the application, you have to set your *MY_IMGUR_CLIENT
 ```sh
 public static final String MY_IMGUR_CLIENT_ID = "########";
 ```
-Otherwise, you can download the latest `.apk` from: https://github.com/thulioaraujo/ImgurGallery/blob/master/app-debug.apk
+Otherwise, you can download the latest debug `.apk` [here](https://github.com/thulioaraujo/ImgurGallery/blob/master/app-debug.apk).
 
 #### Usage
 
