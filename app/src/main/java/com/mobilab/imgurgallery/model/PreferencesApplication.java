@@ -21,7 +21,7 @@ public class PreferencesApplication {
     public static final String VIRAL_FALSE = "false";
 
     public static void savePreferences(Context ctx, String key, String value) {
-        SharedPreferences sharedPreferences = ctx.getSharedPreferences(Constants.APPLLICATION_NAME, Context.MODE_PRIVATE);
+        SharedPreferences sharedPreferences = ctx.getSharedPreferences(Constants.APPLICATION_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(key, value);
         editor.apply();

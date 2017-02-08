@@ -114,7 +114,7 @@ public class ViewFragment extends Fragment {
 
         //Load variables from User Shared Preferences
         SharedPreferences sharedPref = getActivity().getApplicationContext().
-                getSharedPreferences(Constants.APPLLICATION_NAME, Context.MODE_PRIVATE);
+                getSharedPreferences(Constants.APPLICATION_NAME, Context.MODE_PRIVATE);
         String section = sharedPref.getString(PreferencesApplication.SECTION,
                 PreferencesApplication.Section.HOT.getValue());
         String sort = sharedPref.getString(PreferencesApplication.SORT,

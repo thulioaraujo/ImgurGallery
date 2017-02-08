@@ -17,7 +17,7 @@ public class Logger {
      */
     public static void info(String text) {
         if (Constants.LOGGING) {
-            Log.i(Constants.APPLLICATION_NAME, text);
+            Log.i(Constants.APPLICATION_NAME, text);
         }
     }
 
@@ -28,7 +28,7 @@ public class Logger {
      */
     public static void debug(String text) {
         if (Constants.LOGGING) {
-            Log.d(Constants.APPLLICATION_NAME, text);
+            Log.d(Constants.APPLICATION_NAME, text);
         }
     }
 
@@ -39,7 +39,7 @@ public class Logger {
      */
     public static void error(String text) {
         if (Constants.LOGGING) {
-            Log.e(Constants.APPLLICATION_NAME, text);
+            Log.e(Constants.APPLICATION_NAME, text);
         }
     }
 }

@@ -110,7 +110,7 @@ public class FilterActivity extends AppCompatActivity implements RadioGroup.OnCh
 
         //Load variables from User Shared Preferences
         SharedPreferences sharedPref = getApplicationContext().
-                getSharedPreferences(Constants.APPLLICATION_NAME, Context.MODE_PRIVATE);
+                getSharedPreferences(Constants.APPLICATION_NAME, Context.MODE_PRIVATE);
         String sort = sharedPref.getString(PreferencesApplication.SORT,
                 PreferencesApplication.Sort.VIRAL.getValue());
         String window = sharedPref.getString(PreferencesApplication.WINDOW,

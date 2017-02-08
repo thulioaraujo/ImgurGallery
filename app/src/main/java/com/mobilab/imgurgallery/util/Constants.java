@@ -11,7 +11,7 @@ public class Constants {
     /*
       Application name
      */
-    public static final String APPLLICATION_NAME = "IMGUR_GALLERY";
+    public static final String APPLICATION_NAME = "IMGUR_GALLERY";
 
     /*
       Logging flag
@@ -23,11 +23,6 @@ public class Constants {
       More here: https://api.imgur.com/
      */
     public static final String MY_IMGUR_CLIENT_ID = "########";
-
-    /*
-      Redirect URL for android.
-     */
-    public static final String MY_IMGUR_REDIRECT_URL = "http://android";
 
     /*
       Client Auth

@@ -19,7 +19,7 @@ public class ClientConnection {
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     static {
-        client.addHeader("Authorization", "Client-ID " + Constants.MY_IMGUR_CLIENT_ID); // Set Your User Client ID to pass autentification
+        client.addHeader("Authorization", Constants.getClientAuth()); // Set Your User Client ID to pass autentification
     }
 
     public static void requestAccess(String URL, RequestParams params, AsyncHttpResponseHandler handler){
